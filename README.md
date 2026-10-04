@@ -1,60 +1,44 @@
-ASCII Dungeons and Dragons Character Sheet
-==========================================
+# NEW!!! BUG WORLD — ASCII Character Sheet
 
-The first time I played D&D and was faced with the task of tracking character
-information on a character sheet, all I could think was, 'this needs to
-happen in plain text'.
+A fork of [matomatical/dnd5e-ascii-character-sheet](https://github.com/matomatical/dnd5e-ascii-character-sheet), mutated by **mozCORP / moswald14** into a character sheet for **NEW!!! BUG WORLD**.
 
-I saw potential advantages of tracking the character development and
-campaign notes with version control, and enjoying retro ASCII-art in the
-process, all from the mild comfort of my favourite text editor.
-The alternative seemed to be to track character information in a
-form-fillable PDF (for an awful user experience) or on paper (probably
-also ideal, but alas, I lacked a printer for the template).
+## ENTER THE BUG
 
-To my surprise, a quick search turned up no ASCII-based character sheet
-templates. So, I tried my hand at making one based on the standard PDF.
-This repository contains the [ASCII template](character-sheet.txt) that is
-the result of my attempt, and an [example](example-rogue.txt) populated up
-to the end of my first-ever D&D session.
+Open **[NEW-BUG-WORLD.txt](NEW-BUG-WORLD.txt)** and make yourself a bug.
 
-Preview
--------
+It keeps the useful D&D-ish bones:
 
-![](preview.png)
+- six core stats and saves
+- AC, HP, initiative, speed, death saves
+- skills, attacks, inventory, features, spells/signals
+- allies, story, lore, and leveling notes
 
+Then it adds the important science:
 
-Disclaimer
-----------
+- `UNKNOWN POTATO IN A HAT`
+- the **BONK LAB** evidence/test loop
+- BUG LUCK
+- chaos / love / weirdness / glitch / potato meters
+- consensual hivemind party tracking
+- INPUT -> BUG -> OUTPUT world state
+- `TOTAL UPGRADE` (does absolutely nothing)
+- emergency epistemology: `␀ -> POTATO -> SOURCE? -> TEST -> BONK -> GLHF`
 
-I **don't** really use this character sheet. Of course, it's a little painful
-to manually maintain the text alignment.
+## Files
 
-These days, there are better alternatives to form-fillable PDFs (my friends
-like D&D Beyond, though I'm not a big fan; I use handwritten notes on a
-[custom template on my reMarkable e-paper tablet](https://github.com/matomatical/reMarkable-customisation),
-which even has its advantages over paper).
+- `NEW-BUG-WORLD.txt` — the new primary BUG WORLD sheet
+- `character-sheet.txt` — the upstream blank D&D 5e ASCII sheet
+- `example-rogue.txt` — the upstream filled example
+- `scratch.txt` — upstream ASCII experiments
 
-Besides, this was made before I had played much so it's probably missing some
-important features.
+## Rule zero
 
-Anyway, someone might find this cool/useful.
+> ONE OBSERVER PER BUG. CONSENT BEFORE HIVEMIND. PRESERVE THE WEIRD.
 
-Testimonials
-------------
+If the game stops being fun: stop, recover, ask for help, then GLHF.
 
-> you have a problem matt, you need to seek help
-> ---a true friend
+## Credits / license
 
-> wow the memories
-> ---Rayvwen (yes, the e-celeb)
+This repository is a fork of **matomatical's ASCII Dungeons & Dragons Character Sheet**. The original project and its ASCII art remain credited to their respective author(s). See [LICENSE](LICENSE) for the MIT license inherited from the upstream repository.
 
-
-Credits
--------
-
-Some of the ASCII art is not originally my own. Signatures are included where
-possible. More examples with signatures are in [scratch.txt](scratch.txt).
-Unfortunately, links to the original sources are lost.
-
-Otherwise, made with :purple_heart: by Matt.
+NEW!!! BUG WORLD additions: **mozCORP / moswald14**.
